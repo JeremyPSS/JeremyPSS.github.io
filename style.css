@@ -1,0 +1,5 @@
+@media (min-width:600px){
+    .grid_container {
+        grid-template : "photocard" 50px "bio"  50px
+    }
+}
