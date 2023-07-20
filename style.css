@@ -1,5 +1,30 @@
+body {
+    top: 0;
+    left: 0;
+    width: 99%;
+    height: 97%;
+    position: absolute;
+    display: table;
+}
+
+section{
+    text-align: center;
+}
+p {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+/*
+.photocard{
+    width: 240px;
+}*/
+
+
+
 @media (min-width:600px){
     .grid_container {
         grid-template : "photocard" 50px "bio"  50px
     }
 }
+
